@@ -16,7 +16,9 @@ const IndexPage = () => (
           <p>At least 3 different dynamic pages with DB and standard React stuff.</p>
           <p>This page is built using the Gatsby template as oppossed to the 'create-react-app' template. This allows Router for multiple pages, GraphQL for database, Helmet for SEO, etc. to be templated
           right away to save time and expense.</p>
+          <Link to="/page-2/">Click here for page 2</Link> 
            <p><b>Bruce writing code for this assignment.</b></p>
+    
     <StaticImage
       src="../images/Bruce-writing-code-pic.png"
       width={300}
@@ -25,7 +27,7 @@ const IndexPage = () => (
       alt="Bruce King writing code"
       style={{ marginBottom: `1.45rem` }}
     />
-<Link to="/page-2/">Click here for page 2</Link> 
+
       </div>
     </div>   
   </Layout>
