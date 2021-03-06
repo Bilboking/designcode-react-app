@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #0000ff;
+  color: #f54e4e;
   text-decoration: none;
   font-weight: 650;
 }
@@ -49,4 +49,16 @@ a {
   padding: 9px 20px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+  .Hero h1 {
+    font-size: 40px;
+  }
+  .Hero p {
+    font-size: 24px;
+  }
 }
