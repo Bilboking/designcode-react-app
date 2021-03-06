@@ -17,7 +17,7 @@ a {
 
 .Hero {
   background: url('../images/resized-react-image.png') ;
-  height: 920px;
+  height: 1100px;
   background-size: cover;
   background-position: center;
   color: #f0f8ff;
@@ -48,4 +48,5 @@ a {
   text-align: center;
   padding: 9px 20px;
   border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
 }
