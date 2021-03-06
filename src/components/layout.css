@@ -33,10 +33,13 @@ a {
   text-shadow: 2px 2px #000000;
 }
 
-.Hero h1 {
+.HeroGroup h1 {
   margin: 0;
   font-size: 60px;
   line-height: 1.2;
+  animation-name: HeroAnimation;
+  animation: duration 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) ;
 }
 
 .Hero a {
@@ -62,3 +65,15 @@ a {
     font-size: 24px;
   }
 }
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  } 
+}
+

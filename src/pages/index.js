@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
@@ -28,6 +29,13 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
 
+      </div>
+      <div className="Cards">
+        <h2>More information</h2>
+      <Card 
+        title="React page stuff"
+        text="Multiple Sections"
+        image="{require('../images/logo-react.png')}"/>
       </div>
     </div>   
   </Layout>
