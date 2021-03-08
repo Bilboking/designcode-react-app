@@ -13,7 +13,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
           <h1>React.js Project Assignment App for Kingsland University</h1>
           <p><b>Requirements</b></p>
-          <p>A SPA with a public area and private area with authentication. I am choosing Auth0 token based authentication with the option for multi-factor protection since web security breaches (ransom ware, spy/mal ware, etc.) are common and can be very damaging to users. </p>
+          <p>A SPA with a public area and private area with authentication. </p>
           <p>At least 3 different dynamic pages with DB and standard React stuff.</p>
           <p>This page is built using the Gatsby template as oppossed to the 'create-react-app' template. This allows Router for multiple pages, GraphQL for database, Helmet for SEO, etc. to be templated
           right away to save time and expense.</p>
@@ -31,11 +31,11 @@ const IndexPage = () => (
 
       </div>
       <div className="Cards">
-        <h2>More information</h2>
+        <h2>React stuff 1</h2>
       <Card 
-        title="React page stuff"
-        text="Multiple Sections"
-        image="{require('../images/logo-react.png')}"/>
+        title="Components and props"
+        text="What you are seeing here involves components and props"
+         />
       </div>
     </div>   
   </Layout>
