@@ -31,11 +31,33 @@ const IndexPage = () => (
 
       </div>
       <div className="Cards">
-        <h2>React stuff 1</h2>
+      <h2>Cards to demo components</h2>
+      <div className="CardGroup">
       <Card 
         title="Components and props"
         text="What you are seeing here involves components and props"
          />
+      <Card 
+        title="Reusing the Card component"
+        text="What you are seeing here involves components and props"
+         />
+      <Card 
+        title="Reusing Card component"
+        text="What you are seeing here involves components and props"
+         />
+      <Card 
+        title="Reusing Card component"
+        text="What you are seeing here involves components and props"
+         />
+      <Card 
+        title="Reusing Card component"
+        text="What you are seeing here involves components and props"
+         />
+      <Card 
+        title="Reusing Card component"
+        text="What you are seeing here involves components and props"
+         />
+        </div>
       </div>
     </div>   
   </Layout>
